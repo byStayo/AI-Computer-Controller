@@ -1,0 +1,16 @@
+{
+  "short_name": "RemoteAI",
+  "name": "Stupidly-Simple Remote AI",
+  "icons": [
+    {
+      "src": "oi_logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+    // You can add more icon sizes and types (PNG) for better compatibility
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

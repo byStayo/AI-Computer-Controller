@@ -1,0 +1,19 @@
+# Dependencies for the oi-remote gateway and components
+
+fastapi>=0.100.0,<0.112.0 # For the web server
+uvicorn[standard]>=0.22.0,<0.30.0 # ASGI server for FastAPI
+websockets>=10.0,<13.0 # For WebSocket communication
+python-jose[cryptography]>=3.3.0,<4.0.0 # For JWT handling (pyjwt is also an option)
+qrcode[pil]>=7.0,<8.0 # For generating QR codes
+mss>=6.0,<10.0 # For screen capture
+Pillow>=9.0,<11.0 # For image manipulation ( kanssa mss and qrcode)
+httpx>=0.24.0,<0.28.0 # For making HTTP requests to Open Interpreter server
+
+# Note: Open Interpreter itself has its own set of dependencies.
+# This requirements.txt is for the oi-remote components specifically.
+# Ensure open-interpreter is installed in the environment separately.
+# Example: pip install open-interpreter
+
+# For development or type checking, you might also add:
+# mypy
+# ruff
